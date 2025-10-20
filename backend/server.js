@@ -16,7 +16,7 @@ const app = express();
 // ===== ✅ CORS FIX for Render Deployment =====
 const allowedOrigins = [
   process.env.FRONTEND_ORIGIN || 'http://localhost:5173',
-  'https://event-reminder-frontend.vercel.app', // <-- add your deployed frontend domain here
+  'https://event-reminder-5f1d6e24p-vivek-dixits-projects.vercel.app', // <-- add your deployed frontend domain here
 ];
 
 app.use(
